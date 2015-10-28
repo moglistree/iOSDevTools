@@ -6,10 +6,9 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "transparentBackgroundButton.h"
 
 IB_DESIGNABLE
-@interface leftCornerImageButton : transparentBackgroundButton
+@interface leftCornerImageButton : UIButton
 
 @property (nonatomic, strong)    IBInspectable UIImage *leftImage;
 @property (nonatomic, readwrite) IBInspectable CGFloat topSpacing;
