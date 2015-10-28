@@ -1,6 +1,5 @@
 //
 //  UIImage+fromColor.m
-//  Alexi
 //
 //  Created by Martin on 10/27/15.
 //  Copyright © 2015 Martin. All rights reserved.

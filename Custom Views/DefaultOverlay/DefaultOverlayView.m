@@ -1,6 +1,5 @@
 //
 //  DefaultOverlayView.m
-//  CollectiveIntegrations
 //
 //  Created by Martin Andonoski on 11/14/14.
 //  

@@ -1,8 +1,6 @@
 //
 //  UITableView+cellForIdentifier.m
-//  testPanda
 //
-//  Created by Dimitar Delev on 7/28/15.
 //  Copyright (c) 2015 Martin. All rights reserved.
 //
 

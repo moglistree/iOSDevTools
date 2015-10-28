@@ -1,6 +1,5 @@
 //
 //  UIImage+Gradient.m
-//  Alexi
 //
 //  Created by Martin on 9/9/15.
 //  Copyright (c) 2015 Martin. All rights reserved.
