@@ -1,5 +1,6 @@
 //
 //  DefaultOverlayView.m
+//  CollectiveIntegrations
 //
 //  Created by Martin Andonoski on 11/14/14.
 //  
@@ -31,11 +32,15 @@
                                 (self.parentView.frame.size.height - self.frame.size.height) / 2,
                                 self.frame.size.width,
                                 self.frame.size.height);
-    }    
+    }
     
     [self addOverlayToView:view];
     [view.window addSubview:self];
 
+}
+
+- (void) show{
+    [self showInView:[UIApplication sharedApplication].keyWindow.rootViewController.view];
 }
 
 - (void)addOverlayToView:(UIView *) view {

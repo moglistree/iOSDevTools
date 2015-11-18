@@ -1,17 +1,20 @@
 //
 //  DefaultOverlayView.h
+//  CollectiveIntegrations
 //
 //  Created by Martin Andonoski on 11/14/14.
 //  
 //
 
 #import <UIKit/UIKit.h>
+#import "BorderedView.h"
 
-@interface DefaultOverlayView : UIView
+@interface DefaultOverlayView : BorderedView
 
 @property BOOL whiteColor;
 @property BOOL bottomFrame;
 
+- (void) show;
 - (void) showInView:(UIView *)view;
 - (void) hide;
 //- (void) hideAnimation;
